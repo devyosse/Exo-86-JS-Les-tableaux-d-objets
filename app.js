@@ -39,7 +39,7 @@ let voitures = {
 for(y = 0; y < voitures.collection.length; y++) {
     let para = document.getElementById('para');
     let span = document.createElement('span');
-    span.style.color = voitures.collection[i].color;
+    span.style.color = voitures.collection[y].color;
     span.innerHTML = voitures.collection[y].color + ", ";
     voitures.collection[y].ouvrirPorte();
     para.appendChild(span);
